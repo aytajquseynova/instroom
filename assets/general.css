@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    width:1920px;
+}
+:root{
+    --orange:#F05A00;
+    --white: #ffffff;
+    --red :#FC573B;
+    --black: #000000;
+    --dark-gray: #3B3B3B;
+}
+.header{
+    color:var(--white);
+    background-color: #212526;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 310px;
+    padding-right: 310px;
+}
+.logo{
+    padding-top: 22px;
+}
+.logo h2{
+    font-family: Prosto One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.inst::first-letter{
+    color:var(--orange);
+}
+.room::after{
+    content:"m";
+    color:var(--orange);
+}
+.instRoom-work-hour {
+    padding-top: 38px;
+    font-family: 'Raleway',
+    sans-serif;
+}
+.instRoom-work-hour span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.insTroom-work-mobile{
+    padding-top: 25px;
+    font-family: 'Raleway',sans-serif;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/* .instRoom-sum{
+
+} */
+.instRoom-sum p{
+    padding-top: 26px;
+}
+.insTroom-work-mobile h3{ 
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.insTroom-work-mobile p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color:var(--red);
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.instRoom-header-items-box{
+    display:Flex;
+}
+.instRoom-header-icon-box {
+    display: flex;
+}
+.instRoom-header-item {
+    background-color: var(--dark-gray);
+    width:96px;
+    height: 96px;
+    padding:36px;
+    border-left:1px solid black;
+    cursor: pointer;
+}
+
+
+.instRoom-header-item:hover {
+    background-color: var(--orange);
+    color:var(--white);
+}
+
+.instRoom-sum{
+    margin-left: 16px;
+    font-family: 'Raleway';
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.instRoom-sum p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.instRoom-sum h3{
+    font-size: 16px;
+    font-weight: 700;
+}
