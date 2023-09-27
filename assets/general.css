@@ -63,9 +63,6 @@ body{
     letter-spacing: 0em;
     text-align: left;
 }
-/* .instRoom-sum{
-
-} */
 .instRoom-sum p{
     padding-top: 26px;
 }
@@ -96,13 +93,10 @@ body{
     border-left:1px solid black;
     cursor: pointer;
 }
-
-
 .instRoom-header-item:hover {
     background-color: var(--orange);
     color:var(--white);
 }
-
 .instRoom-sum{
     margin-left: 16px;
     font-family: 'Raleway';
@@ -120,8 +114,4 @@ body{
 }
 img{
     width:100%;
-    /* object-fit: contain;
-    height: auto;
-    top: 0;
-    left: 0 */
 }
