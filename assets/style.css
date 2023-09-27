@@ -10,8 +10,8 @@ nav{
 }
 .navbar-menu-items ul li{
     margin-left: 60px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 34px;
+    padding-bottom: 34px;
 }
 .navbar-menu-social-media ul{
     display: flex;
@@ -25,7 +25,7 @@ nav{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.burger img{
+.burger-img-box{
     margin-top: 15px;
     margin-left: 16px;
     margin-bottom: 17px;
@@ -65,3 +65,87 @@ nav{
     margin-bottom: 16px;
     margin-left: 12px;
 }
+/* main starts */
+main{
+    display: flex;
+    padding: 20px 310px 20px 310px;
+    justify-content: space-between;
+    position: relative;
+    background-color: #212526;
+}
+.instrumentCharacter{
+    position: relative;
+    width:640px;
+    height: 488px;
+}
+.instrumentCharacterHeading {
+    position: absolute;
+    padding:32px 29px 0px 29px;
+}
+.instrumentCharacterHeading h1 {
+        font-family: Prosto One;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        color:var(--white);
+ }
+ .goToCataloge {
+    position: absolute;
+    bottom:171px;
+    left:24px;
+    padding: 14px 32px 14px 32px;
+    border-radius:5px;
+    background-color: var(--orange);
+    color:var(--white);
+    font-family:'Raleway' ;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.arrow-left{
+    position: absolute;
+    bottom:0;
+    background-color: var(--black);
+    color: var(--white);
+    padding:17px;
+    border-radius:0px 5px 0px 5px ;
+    width:58px;
+    height: 58px;
+    cursor: pointer;
+}
+.arrow-left:hover{
+    background-color: var(--orange);
+}
+.action h3,
+.newArrival h3,
+.promotions h3{
+    font-family: Prosto One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    position:absolute;
+    padding-top:16px;
+    padding-left:16px;
+    color:var(--white);
+}
+.action, .newArrival, .promotions{
+    position: relative;
+}
+.newArrival{
+    margin-bottom: 20px;
+}
+.newArrival, .promotions{
+     width:310px;
+    height: 234px;
+}
+.action{
+    width:311px;
+    height: 488px;
+}
+/* main ends */

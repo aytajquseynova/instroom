@@ -118,3 +118,10 @@ body{
     font-size: 16px;
     font-weight: 700;
 }
+img{
+    width:100%;
+    /* object-fit: contain;
+    height: auto;
+    top: 0;
+    left: 0 */
+}
