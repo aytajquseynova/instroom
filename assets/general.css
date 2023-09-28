@@ -9,7 +9,7 @@ li{
 a{
     text-decoration: none;
 }
-body{
+.container{
     width:1920px;
 }
 :root{

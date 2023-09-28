@@ -43,6 +43,7 @@ nav{
     margin-left: 12px;
     padding-top: 26px;
     padding-bottom: 26px;
+    cursor: pointer;
 }
 .search-button{
     display: flex;
@@ -105,6 +106,7 @@ main{
     line-height: 16px;
     letter-spacing: 0em;
     text-align: center;
+    cursor: pointer;
 }
 .arrow-left{
     position: absolute;
