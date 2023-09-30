@@ -8,9 +8,11 @@ btn.addEventListener('click', function () {
         i = 0;
     }
     setImg();
+    
 });
 
 function setImg() {
     return slider_img.setAttribute('src', "./assets/images/" + images[i]);
-
 }
+
+// btn
